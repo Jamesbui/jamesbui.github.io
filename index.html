@@ -1,205 +1,266 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Sample 4</title>
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="shortcut icon" href="../../flat-ui/images/favicon.ico">
-        <link rel="stylesheet" href="../../flat-ui/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="../../flat-ui/css/flat-ui.css">
-        <!-- Using only with Flat-UI (free)-->
-        <link rel="stylesheet" href="../../common-files/css/icon-font.css">
-        <!-- end -->
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	
+	<!-- *** EDIT ME *** -->
+    <title>Wolf Pack App</title>
+    
+    <!-- *** EDIT ME *** -->
+    <meta content="Plan events with your group easily; planning made easy" name="keywords">
+    
+    <!-- *** EDIT ME *** -->
+    <meta content="Application for planning events with your group" name="description">
 
-    <body>
-        <div class="page-wrapper">
-            <!-- header-10 -->
-            <header class="header-10">
-                <div class="container">
-                    <div class="navbar col-sm-12" role="navigation">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle"></button>
-                            <a class="brand" href="#">Startup</a>
-                         </div>
-                        <div class="collapse navbar-collapse pull-right">
-                            <ul class="nav pull-left">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#">Account</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                            <form class="navbar-form pull-left">
-                                <a class="btn btn-info" href="#">Buy Now</a>
-                            </form>
-                        </div>
+    <link href="/favicon.ico" rel="icon" type="image/wolf-emblem.png">
+    
+    <link href="css/main.css" media="all" rel="stylesheet" type="text/css">
+    
+    <link charset="utf-8" href="stylesheet.css" rel="stylesheet" type="text/css">
+    
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+	
+	<script type="text/javascript">
+			$(function() {
+    			$('a[rel*=leanModal]').leanModal({ top : 200, closeButton: ".modal_close" });		
+			});
+		</script>    
+</head>
+
+<body>
+
+	<!-- CALL TO ACTION CONTAINER -->
+	
+	<div id="cta-container">
+	
+		<div class="cta">
+		
+			<div class="logo">
+				<img src="images/wolfpackgray.png">
+			</div>
+			
+			
+			<div class="copy">
+				
+				<h1>
+				<!-- *** EDIT ME *** -->
+				Get Together With Your Friends More Easily
+				</h1>
+				
+				
+				<h3>
+				<!-- *** EDIT ME *** -->
+				Getting together with your friends is tough when everybody has different schedules and aren't in the vicinity. Figuring out when and where to meet plus what to do can be huge barriers to getting your pack of friends together but Wolf Pack can change that.   
+				</h3>
+			
+			</div>
+			
+			<div class="main-button">
+			
+				
+				<a rel="leanModal" name="signup" href="#signup" class="main-btn">
+					
+					<!-- *** EDIT ME *** -->
+					Download the App!
+					
+				</a>
+			
+			</div>
+		
+		</div>
+	
+	</div>
+	
+	
+	<!-- FIRST FEATURE BENEFIT -->
+	
+	<div id="feature-a-container">
+	
+	<div class="feature-a">
+		
+		<div class="feature-a-copy">
+		
+			<!-- *** EDIT ME *** -->
+			<h2>Event Suggestions and Group Voting</h2>
+			
+			<!-- *** EDIT ME *** -->
+			<p>Get event suggestions that your pack can vote on! No longer will one person have to figure out what to do and coordinate the entire event. Now you can have the entire group vote and decide!</p>
+			
+			
+			<div class="feature-button">
+				
+				<a rel="leanModal" name="signup" href="#signup" class="feature-btn">
+				<!-- *** EDIT ME *** -->
+				Get voting!
+				</a>
+			
+			</div>	
+		
+		</div>
+		
+		<div class="feature-a-image">
+		
+			<img src="images/phone-voting.png" />
+		
+		</div>
+	
+	
+	</div>
+	
+	</div>
+	
+	<!-- SECOND FEATURE BENEFIT -->
+	
+	<div id="feature-b-container">
+	
+	<div class="feature-b">
+		
+		<div class="feature-b-image">
+		
+			<img src="images/packs.png" />
+		
+		</div>
+	
+		<div class="feature-b-copy">
+		
+			<!-- *** EDIT ME *** -->
+			<h2>Create your own private pack or join a public one!</h2>
+			
+			<!-- *** EDIT ME *** -->
+			<p>Keep track and coordinate with all your different groups of friends and </p>
+			
+			
+			<div class="feature-button">
+				
+				<a rel="leanModal" name="signup" href="#signup" class="feature-btn">
+				<!-- *** EDIT ME *** -->
+				Create a pack!
+				</a>
+				
+			</div>	
+		
+		</div>
+	
+	</div>
+	
+	</div>
+	
+	<!-- <div id="feature-a-container">
+	
+	<div class="feature-a">
+		
+		<div class="feature-a-copy">
+ -->		
+			<!-- *** EDIT ME *** -->
+<!-- 			<h2>Describe a Fantastic Benefit</h2>
+ -->			
+			<!-- *** EDIT ME *** -->
+<!-- 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta interdum nisi et aliquam. Cras ac orci at dolor volutpat condimentum in ac dui. Nunc auctor ut nulla eget congue. Morbi nec gravida nulla.</p>
+			
+			
+			<div class="feature-button">
+				
+				<a rel="leanModal" name="signup" href="#signup" class="feature-btn"> -->
+				<!-- *** EDIT ME *** -->
+<!-- 				Actionable CTA
+				</a>
+				
+			</div>	 -->
+		
+		<!-- </div>
+		
+		<div class="feature-a-image">
+		
+			<img src="images/feature-image.png" />
+		
+		</div>
+ -->	
+	
+	</div>
+	
+	</div>
+
+	
+	</div>
+	
+	<!-- FOOTER CONTAINER -->
+	
+	<div id="footer-container">
+	
+		<div class="footer">
+		
+			<div class="copyright">
+				<!-- *** EDIT ME *** -->
+				<p>Copyright © 2015 Wolf Pack Inc</p>
+			</div>
+		
+		</div>
+
+	</div>
+	
+	<!-- POP UP SIGN UP BOX -->
+	
+	 <div id="signup">
+        <h4>
+        <!-- *** EDIT ME *** -->
+        We are so close to launching!
+        </h4>
+        
+        <p class="size16">
+        <!-- *** EDIT ME *** -->
+        We're pumped that you're interested in downloading our app. Please leave us your email, and we'll let you know the moment we launch. You can also give us feedback to help us build the perfect product for you .
+        </p>
+
+		<!-- *** START OF WUFOO FORM EMBED CODE *** -->
+        <form accept-charset="UTF-8" action=
+        "https://usabilityhour.wufoo.eu/forms/w1e6uhhi0oebzsp/#public"
+        autocomplete="off" class="wufoo topLabel page" enctype=
+        "multipart/form-data" id="form6" method="post" name="form6" novalidate=
+        "">
+        <!-- END OF WUFOO EMBED CODE -->
+            <ul>
+                <li class="notranslate" id="foli1">
+                    <div>
+                        <input class="field text medium" id="Field1" maxlength=
+                        "255" name="Field1" placeholder=
+                        "Enter your email to be notified" required=""
+                        spellcheck="false" tabindex="1" type="email">
                     </div>
-                </div>
-            </header>
-            <section class="header-10-sub v-center bg-midnight-blue">
-                <div class="background">
-                    &nbsp;
-                </div>
-                <div>
-                    <div class="container">
-                        <div class="hero-unit">
-                            <h1>Startup Framework is a set of components</h1>
-                            <p>
-                                We’ve created the product that will help your
-                                <br/>
-                                startup to look even better.
-                            </p>
-                        </div>
+                </li>
+
+
+                <li class="buttons">
+                    <div>
+                    	<!-- *** EDIT AFTER VALUE=" *** -->
+                        <input class="btTxt submit" id="saveForm" name=
+                        "saveForm" onclick="”_gaq.push(['_trackEvent'," type=
+                        "submit" value="Remind me when you launch">
                     </div>
-                </div>
-                <a class="control-btn fui-arrow-down" href="#"> </a>
-            </section>
-
-            <!-- content-7  -->
-            <section class="content-7 v-center">
-                <div>
-
-                    <div class="container">
-                        <h3>Take a look in our awesome product</h3>
-
-                        <div class="row v-center">
-                            <div class="col-sm-3">
-                                <div>
-                                    Of course we haven’t forgotten about the responsive layout. Create a website with full mobile
-                                    support.
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="col-sm-offset-1">
-                                    <div class="screen-wrapper">
-                                        <div class="screen">
-                                            <img src="../../common-files/img/content/screen-popup.png" alt="">
-                                            <img src="../../common-files/img/content/screen.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="col-sm-offset-2">
-                                    <h6>Responsive Layout</h6>
-                                    Of course we haven’t forgotten about the responsive layout. Full mobile support.
-                                    <h6>Retina Ready</h6>
-                                    Startup Framework works fine on devices supporting Retina Display. Feel the clarity!
-                                </div>
-                            </div>
-                        </div>
+                    <div id="no">
+                    
+                    	<a class="modal_close" href="#">
+                    	<!-- *** EDIT ME *** -->
+                    	No thanks, I don't need this product.
+                    	</a>
+                    
                     </div>
-                </div>
-            </section>
+                </li>
 
-            <!-- content-23  -->
-            <section class="content-23 v-center bg-midnight-blue custom-bg">
-                <div>
-                    <div class="container">
-                        <div class="hero-unit hero-unit-bordered">
-                            <h1>Scenic Nature</h1>
-                        </div>
-                    </div>
-                </div>
-                <a class="control-btn fui-arrow-down" href="#"> </a>
-            </section>
 
-            <!-- content-8  -->
-            <section class="content-8 v-center">
-                <div>
-                    <div class="container">
-                        <img src="../../common-files/img/content/img-1@2x.png" width="397" height="193" alt="">
+                <li class="hide"><label for="comment">Do Not Fill This
+                Out</label> 
 
-                        <h3>Take a look to our amazing Kit</h3>
+                <textarea cols="1" id="comment" name="comment" rows="1">
+</textarea> 
+				<!-- *** REPLACE VALUE WITH CODE FROM WUFOO *** -->
+				<input id="idstamp" name="idstamp" type="hidden"
+                value="HIQecF8d3pfU1vhFNgY8KGuLYz/vmRduMhF7CS0FMw0="></li>
+            </ul>
+        </form>
+    </div>
 
-                        <div class="row">
-                            <div class="col-sm-6 col-sm-offset-3">
-                                <p>We have a great surprise for Designmodo fans – our first free HTML user interface kit.
-                                    Flat UI Free is made on the basis of Twitter Bootstrap in a stunning flat-style.
-                                </p>
-                                <a class="btn btn-large btn-clear" href="#">TRY IT NOW</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+</body>
 
-            <!-- content-23  -->
-            <section class="content-23  v-center bg-midnight-blue">
-                <div id="bgVideo" class="background"></div>
-                <div>
-                    <div class="container">
-                        <div class="hero-unit">
-                            <h1>Find a perfect suit for
-                            <br class="hidden-phone">
-                            your startup</h1>
-                        </div>
-                    </div>
-                </div>
-                <a class="control-btn fui-arrow-down" href="#"> </a>
-            </section>
-
-            <!-- content-8  -->
-            <section class="content-8 v-center">
-                <div>
-                    <div class="container">
-                        <img width="380" height="187" alt="" src="img/ticket-red@2x.png"/>
-                        <h3>Twenty Five Awesome Samples</h3>
-                        <div class="row">
-                            <div class="col-sm-6 col-sm-offset-3">
-                                <p>
-                                    The most important part of the Startup Framework is the samples.
-                                    The samples form a set of 25 usable pages or you can add new blocks from UI Kit.
-                                </p>
-                                <a class="btn btn-large btn-clear" href="#">TRY IT NOW</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- content-11  -->
-            <section class="content-11">
-                <div class="container">
-                    <span>You have the design, you have the code</span>
-                    <a class="btn btn-large btn-danger" href="#">TRY IT NOW</a>
-                </div>
-            </section>
-
-            <!-- footer-3 -->
-            <footer class="footer-3">
-                <div class="container">
-                    <div class="row v-center">
-                        <div class="col-sm-2">
-                            <a class="brand" href="#">Startup</a>
-                        </div>
-                        <div class="col-sm-7">
-                            <div class="additional-links">
-                                Be sure to take a look to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <h6>New York, NY</h6>
-                            <div class="address">
-                                62 West 55th Street, Suite 302<br>New York, NY, 10230
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
-
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="../../common-files/js/jquery-1.10.2.min.js"></script>
-        <script src="../../flat-ui/js/bootstrap.min.js"></script>
-        <script src="../../common-files/js/modernizr.custom.js"></script>
-        <script src="../../common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
-        <script src="../../common-files/js/jquery.parallax.min.js"></script>
-        <script src="../../common-files/js/startup-kit.js"></script>
-        <script src="js/jquery.backgroundvideo.min.js"></script>
-        <script src="js/script.js"></script>
-    </body>
 </html>
